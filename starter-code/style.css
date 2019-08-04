@@ -1,0 +1,411 @@
+body{
+    background-color: red;
+    margin: 0px !important;
+    font-family: sans-serif;
+  }
+
+h1{
+    margin: 0px;
+}
+
+  .wrapper{
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  #header-content{
+    width: 100%;
+    height: 30px;
+    display: table;
+    padding-bottom: 15px;
+  }
+
+  .logo{
+      float: left;
+      padding: 00px 10px;
+  }
+
+  .logo img{
+      width: 18px;
+  }
+
+  .logo-container{
+      float: left;
+      margin-top: 18px;
+      display: inline-flex;
+  }
+
+  .title{
+      color: #fff;
+  }
+
+  .nav-container{
+      float: right;
+  }
+
+  .nav-container li{
+      float: left;
+      list-style: none;
+      padding-right: 30px;
+  }
+
+  .nav-container li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*-------------------- Bloque 01 --------------------*/
+
+
+#bloque1{
+    background-color: #1f5a7c;
+    background-image: url('images/city-scape.svg');
+    padding: 20px 30px 0px 30px;
+}
+
+.contenedor-search{
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.npm-logo{
+    float: left;
+    width: 15%;
+    float: left;
+    display: table;
+}
+
+.npm-logo img{
+    width: 140px;
+}
+
+.search{
+    float: left;
+    width: 67.5%;
+    display: table;
+}
+
+.search form {
+    width: 94%;
+    height: 45px;
+    float: left;
+    background-color: #1d5070;
+}
+
+.lupa{
+    float: left;
+    width: 5%;
+    margin-left: 1%;
+    background-color: #1d5070;
+}
+
+.lupa img{
+    padding: 7.5px;
+    width: 25px;
+}
+
+.login{
+    width: 17.5%;
+    float: left;
+    display: table;
+    min-width: 212px;
+}
+
+.login li {
+    list-style: none;
+    float: left;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.login li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login img{
+    float: left;
+    width: 60px;
+    margin-top: -15px;
+}
+
+
+.bloque1-text-content{
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    display: table;
+    margin-top: 100px;
+}
+
+.bloque1-text-content img{
+    width: 65%;
+    float: right;
+    margin-top: -70px;
+}
+
+.bloque1-text-content-title {
+    font-size: 30px;
+}
+
+.bloque1-text-content-text{
+    line-height: 1.5;
+    width: 60%;
+}
+
+.bloque1-text-content-button button{
+    padding: 10px 30px;
+    background-color: rgb(240, 146, 51);
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+    margin: 30px 0px;
+    font-size: 14px;
+}
+
+
+
+/*-------------------- Bloque 02 --------------------*/
+
+
+#bloque2{
+    background-color: rgb(39, 53, 71);
+    padding: 20px 0px 0px 0px;
+    display: table;
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.bloque2-half {
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+.bloque2-text-content-title{
+    font-size: 30px;
+}
+
+.bloque2-text-content-text{
+    line-height: 1.5;
+    margin: 30px 0px;
+}
+
+#bloque2 button{
+    padding: 10px 30px;
+    background-color: rgb(203, 56, 55);
+    color: #fff;
+    border: 0px;
+    border-radius: 20px; 
+    margin: 30px 0px;
+    font-size: 14px;  
+}
+
+.bloque2-text-content-text2 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*-------------------- Bloque 03 --------------------*/
+
+
+
+#bloque3{
+    background-image: url('images/forklift.svg');
+    display: table;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.bloque3-container{
+    padding: 10% 5% 5% 5%;;
+    color: #fff;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.bloque3-text-content-title{
+    font-size: 30px;
+}
+
+.bloque3-text-content-text{
+    line-height: 1.5;
+}
+
+#bloque3 button{
+    padding: 10px 30px;
+    background-color: rgb(49, 68, 88);
+    color: #fff;
+    border: 0px;
+    border-radius: 20px; 
+    margin: 30px 0px;
+    font-size: 14px;  
+}
+
+
+/*-------------------- Bloque 04 --------------------*/
+
+
+#bloque4{
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.bloque4-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0px 0px 0px;
+}
+
+.bloque4-text-content-title{
+    padding: 30px 0px 15px 0px;
+}
+
+.bloque4-text-content-subtitle h3{
+    font-weight: 100 !important;
+}
+
+.bloque4-text-content-blocks{
+    display: table;
+    padding: 100px 0px 0px 0px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.block{
+    float: left;
+    width: 31%;
+    padding: 0% 1.1%;
+}
+
+.bloack-txt{
+    margin: 0 auto;
+    width: 80%;
+    padding: 10% 0%;
+    line-height: 1.5;
+}
+
+
+
+/*------------------- Responsive -----------------*/
+
+@media (max-width: 600px){
+    .logo-container {
+        float: none;
+        margin-top: 18px;
+        text-align: center;
+    }
+
+    .nav-container {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .nav-container li {
+        float: none;
+        list-style: none;
+        padding-right: 0px;
+        width: 90%;
+        padding: 10px 0px;
+        border-top: 1px solid #fff;
+    }
+
+
+    .npm-logo {
+        float: left;
+        width: 15%;
+        float: none;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .search {
+        float: left;
+        width: 100%;
+        display: table;
+    }
+
+    .lupa {
+        float: left;
+        width: 5%;
+        margin-left: 1%;
+        background-color: #1d5070;
+        display: block;
+    }
+
+    .login {
+        width: 0;
+        float: none;
+        display: table;
+        min-width: 212px;
+        margin: 0 auto;
+    }
+
+    .bloque1-text-content-text {
+        line-height: 1.5;
+        width: 100%;
+    }
+
+
+/* -------------------- Bloque 02 -------------------- */
+
+    .bloque2-half {
+        float: none;
+        width: 80%;
+        padding: 10% 0%;
+        margin: 0 auto;
+    }
+
+
+/* -------------------- Bloque 03 -------------------- */
+
+    #bloque3 {
+        background-image: url(images/forklift.svg);
+        display: table;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        /* position: relative; */
+    }
+
+
+/* -------------------- Bloque 04 -------------------- */
+
+
+    .bloque4-text-content-title {
+        padding: 30px 0px 15px 0px;
+        line-height: 1.5;
+}
+
+    .bloque4-text-content-subtitle h3 {
+        font-weight: 100 !important;
+        line-height: 1.5;
+    }
+
+    .block {
+        float: none;
+        width: 100%;
+        padding: 0%;
+    }
+
+    .bloque4-text-content-blocks {
+        display: table;
+        padding: 50px 0px 0px 0px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+}
